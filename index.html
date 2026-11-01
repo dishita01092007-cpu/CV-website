@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dishita Agarwal | Consulting &amp; Finance | IIM Bangalore</title>
+<meta name="description" content="Interactive résumé of Dishita Agarwal, dual-degree student at IIM Bangalore and Christ University. Drive through eight phases covering education, experience, leadership, projects and case work.">
+<meta property="og:title" content="Dishita Agarwal | Consulting &amp; Finance">
+<meta property="og:description" content="Drive through my résumé: eight phases, a few obstacles, no game over.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0A1628">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="cv" aria-label="Driving game. Use the cursor, touch or arrow keys to steer."></canvas>
+
+<header id="hud" hidden>
+  <div class="stat"><span>Client impact</span><b id="pv">100</b></div>
+  <div class="stat"><span>Insights</span><b id="ins">0</b></div>
+  <div id="route" aria-label="Route progress"></div>
+  <div class="hbtns">
+    <button id="auto" class="ghost" aria-pressed="false">Autopilot: off</button>
+    <button id="quick" class="ghost">Skip to résumé</button>
+    <a class="ghost" href="mailto:ms.dishita197@outlook.com">Contact</a>
+  </div>
+</header>
+
+<div id="ticker" aria-hidden="true"></div>
+
+<section id="start" class="screen">
+  <div class="intro">
+    <p class="role">Consulting · Finance · IIM Bangalore × Christ University</p>
+    <h1>Dishita Agarwal</h1>
+    <p class="lead">A short drive through my résumé, run like a client engagement. Eight phases, a few obstacles, no game over.</p>
+    <ul class="legend">
+      <li><i class="sw coin"></i>Collect insights</li>
+      <li><i class="sw risk"></i>Dodge obstacles, each hit dents your client impact</li>
+      <li><i class="sw gate"></i>Cross each phase gate to read that section</li>
+    </ul>
+    <p class="how">Steer with your cursor, your finger or the ← → keys.</p>
+    <p class="ask">What are you hiring for?</p>
+    <div class="actions">
+      <button class="btn pick" data-t="c">Consulting</button>
+      <button class="btn pick" data-t="f">Finance</button>
+      <button class="btn pick alt" data-t="a">Show me everything</button>
+    </div>
+    <div class="actions sub">
+      <button id="quick2" class="ghost">Skip to résumé</button>
+      <a class="ghost" href="Dishita_Agarwal_Resume.pdf" target="_blank" rel="noopener">Download PDF</a>
+    </div>
+  </div>
+</section>
+
+<section id="card" class="screen modal" hidden></section>
+<section id="qv" class="screen modal" hidden></section>
+
+<section class="sr">
+  <h2>Dishita Agarwal: résumé summary</h2>
+  <p>Dual-degree student (BBA Digital Business &amp; Entrepreneurship at IIM Bangalore, BBA Hons. at Christ University), CGPA 3.90 / 4.0. Experience: Summer Intern, Sales &amp; Credit at AU Small Finance Bank; Intern, Sponsorship &amp; Operations at Arogya Foundation of India. Leadership: Senior Coordinator, Partnership Cell IIMB; Financial Research Analyst, AQuant; CUSBMA; Finometrics. Case work: Vridhi Housing Finance, Ditto Insurance. Certifications: CFA Level 1 (Feb 2027), BCG and Goldman Sachs job simulations, McKinsey Forward. Contact: ms.dishita197@outlook.com, +91 7014326632.</p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
